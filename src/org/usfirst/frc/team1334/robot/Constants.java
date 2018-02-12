@@ -27,4 +27,5 @@ public class Constants {
 	/* choose based on what direction you want to be positive,
 		this does not affect motor invert. */
 	public static boolean kMotorInvert = false;
+	// making sure commits work like a gem
 }

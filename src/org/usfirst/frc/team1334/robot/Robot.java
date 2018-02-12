@@ -24,7 +24,7 @@ import edu.wpi.first.wpilibj.IterativeRobot;
 import edu.wpi.first.wpilibj.Joystick;
 
 public class Robot extends IterativeRobot {
-// comments are cooler than cool
+
 	TalonSRX _talon = new TalonSRX(0);
 	TalonSRX _talon1 = new TalonSRX(1);
 	TalonSRX _talon2 = new TalonSRX(2);
@@ -165,6 +165,7 @@ public class Robot extends IterativeRobot {
 		 * print every ten loops, printing too much too fast is generally bad
 		 * for performance
 		 */
+		// making sure commits work like a gem
 		if (++_loops >= 10) {
 			_loops = 0;
 			System.out.println(_sb.toString());
